@@ -5,7 +5,4 @@
 
 
 def multiple_retutns(sentence):
-    if sentence == '':
-        return (0, None)
-    else:
-        return(len(sentence), sentence[0])
+    return (len(sentence), sentence[0] if len(sentence) > 0 else None)
