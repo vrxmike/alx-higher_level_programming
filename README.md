@@ -1,1 +1,1 @@
-this repository contains projects on ALX-higher_level_programming
+this repository contains projects on ALX-Higher_Level_Programming
