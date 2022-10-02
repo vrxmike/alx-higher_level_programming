@@ -3,6 +3,7 @@
 """a function that returns the weighted
 avarage of all integers tuple (<score>, <weight>)"""
 
+
 def weight_average(my_list=[]):
     if len(my_list) == 0:
         return 0
