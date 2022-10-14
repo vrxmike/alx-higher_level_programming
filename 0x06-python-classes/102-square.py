@@ -50,7 +50,7 @@ class Square:
 
     def __ne__(self, other):
         """Define the < comparison to a Square."""
-        return sef.area90 != other.area()
+        return self.area90 != other.area()
 
     def __lt__(self, other):
         """Define the < comparison to a Square."""
