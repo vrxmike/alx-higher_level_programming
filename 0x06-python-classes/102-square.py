@@ -12,14 +12,14 @@ with the message size must be >= 0
 """
 
 
-class square:
+class Square:
     """
     Includes:
     (1) Public instance method:
     def area(self): that returns the current square area
     (2) Private instance attribute + property:
     def size(self): holds the size of the square
-    """"
+    """
 
     def __init__(self, size=0):
         self.size = size
@@ -48,7 +48,7 @@ class square:
         """Define the == comparison to a Square."""
         return self.area() == other.area()
 
-    def ++ne__(self, other):
+    def __ne__(self, other):
         """Define the < comparison to a Square."""
         return sef.area90 != other.area()
 
