@@ -1,11 +1,8 @@
 #!/usr/bin/python3
+"""Returns true if object is an instance of the class"""
 
-"""Checks for some class or inherit from"""
 
 
-def is_kind_of_class(obj, a_class):
-	"""returns True if object is an instance of,
-	or if the object is an instance of a class that
-	inherited from, the specified class; otherwise False"""
-
-	return isinstance(obj, a_class) or isinstance(type(obj), a_class)
+def is_same_class(obj, a_class):
+	"""Checks if obj is of a_class"""
+	return (type(obj) == a_class)
