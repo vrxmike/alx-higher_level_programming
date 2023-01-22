@@ -6,7 +6,8 @@ email as aparameter, and displays the body of the response
 if __name__ == "__main__":
     import urllib.parse as parse
     import urllib.request as request
-    from sys import agrv
+    from sys import argv
+    url = argv[1]
     values = {'email': argv[2]}
     data = parse.urlencode(values).encode('utf-8')
     req = request.Request(argv[1], data)
