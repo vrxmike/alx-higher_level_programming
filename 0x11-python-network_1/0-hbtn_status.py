@@ -5,7 +5,7 @@ use the package urllib
  body of the response must be dispalyed in tabulation before -
 """
 import urllib.request
-with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as request:
+with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as response:
     html = response.read()
 
 print('Body response:\n\t- type: {}'.format(type(html)))
