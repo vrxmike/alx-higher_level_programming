@@ -1,0 +1,1 @@
+this directory contains projects on 0x13-javascript_objects_scopes_closures
