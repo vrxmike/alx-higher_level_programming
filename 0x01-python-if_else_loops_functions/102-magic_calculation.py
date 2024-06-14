@@ -2,7 +2,7 @@
 # Author - Alvin O Mike
 
 def magic_calculate(a, b, c):
-    """Matchbytecode provided by Holberton School."""
+    """Match bytecode provided by Holberton School."""
     if a < b:
         return (c)
     if c > b:
